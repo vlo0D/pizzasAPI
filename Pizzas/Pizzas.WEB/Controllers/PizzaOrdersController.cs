@@ -20,7 +20,7 @@ namespace Pizzas.WEB.Controllers
             _configuration = configuration;
         }
 
-        [HttpGet(Name = "GetTop10")]
+        [HttpGet]
         public async Task<IEnumerable<PizzaOrdersView>> GetTopTen()
         {
             Orders orders = new Orders();

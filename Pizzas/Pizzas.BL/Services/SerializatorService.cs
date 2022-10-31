@@ -17,7 +17,7 @@ namespace Pizzas.BL.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("catch");
+                throw new Exception();
             }
 
             return allPizzas;
